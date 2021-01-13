@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- venobox -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie Page</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="container">
+        <div class="heading text-right text-white">
+            <i class="fas fa-phone-square-alt"></i>
+            <span class="border-right pr-2">03301234567</span>
+            <i class="fas fa-search"></i>
+        </div>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg" alt="">
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What's On</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shortcodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel   -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item img1 text-white active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>ACTION, ADVENTURE, FANTASY</h3>
+                            <h1>End of the World: Part II</h1>
+                            <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                                Mirum est notare quam littera gothica, quam nunc putamus parum.
+                            </p>
+                            <div>
+                                <span class="carousel__icon">PG</span>
+                                <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox btn btn-trailer"
+                                    data-vbtype="video">
+                                    <i class="fas fa-play"></i>
+                                    <span>Play Trailer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-white img2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>ACTION, ADVENTURE, FANTASY</h3>
+                            <h1>End of the World: Part II</h1>
+                            <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                                Mirum est notare quam littera gothica, quam nunc putamus parum.
+                            </p>
+                            <div>
+                                <span class="carousel__icon">PG</span>
+                                <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox btn btn-trailer"
+                                    data-vbtype="video">
+                                    <i class="fas fa-play"></i>
+                                    <span>Play Trailer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-white img3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>ACTION, ADVENTURE, FANTASY</h3>
+                            <h1>End of the World: Part II</h1>
+                            <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                                Mirum est notare quam littera gothica, quam nunc putamus parum.
+                            </p>
+                            <div>
+                                <span class="carousel__icon">PG</span>
+                                <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox btn btn-trailer"
+                                    data-vbtype="video">
+                                    <i class="fas fa-play"></i>
+                                    <span>Play Trailer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    <!-- New In -->
+    <section id="newin" class="container">
+        <h1 class="title__heading">New In</h1>
+        <div class="newin_content">
+            <div class="newin-slick row">
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-1.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-2.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-3.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-4.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-5.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <div class="newin__img">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                        <div class="newin__text container">
+                            <a href="https://www.youtube.com/embed/fJX0s5tjBFw" class="venobox" data-vbtype="video">
+                                <i class="fas fa-play"></i>
+                            </a>
+                            <h2>Read More</h2>
+                            <h3>Released: 7 Mar, 2017</h3>
+                        </div>
+                    </div>
+                    <h1>The Last Post</h1>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Date -->
+    <section id="date" class="container">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#mon">Mon</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#tue">Tue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#today">Today</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#thu">Thu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#fri">Fri</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#sat">Sat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#sun">Sun</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container" id="mon">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container" id="tue">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-7.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container active" id="today">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-8.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container" id="thu">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-9.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container" id="fri">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container" id="sat">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-2.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container" id="sun">
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-3.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>DRAMA</h1>
+                        <h3>Daylight</h3>
+                        <p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man
+                            growing up in a rough neighborhood of Miami.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row date__tab">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/movie-6.jpg" alt="">
+                    </div>
+                    <div class="col-md-10 date__text">
+                        <h1>ACTION, ADVENTURE, FANTASY</h1>
+                        <h3>It's over</h3>
+                        <p>European mercenaries searching for black powder become embroiled in the defense of It's over
+                            of China against a horde of monstrous creatures.</p>
+                        <a href="#" class="btn">FULL SYNOPSIS ></a>
+                        <div class="row">
+                            <div class="col-md-10 date__time">
+                                <i class="far fa-clock"></i>
+                                <span class="date__time__0">VIEWING TIMES</span>
+                                <span class="date__time__1 private">14:45</span>
+                                <span class="date__time__1">18:30</span>
+                                <span class="date__time__1">20:30</span>
+                                <span class="date__time__1">0:45</span>
+                            </div>
+                            <div class="col-md-2 date__running">
+                                <span>105 min</span>
+                                <span class="date__running__number">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon -->
+
+    <section id="coming">
+        <div class="coming__section container">
+            <h1>Coming Soon</h1>
+        </div>
+        <div class="row single-slide slideOne">
+            <div class="bg" style="background: url(images/slide-1.png);"></div>
+            <div class="col-sm-5 col-xs-12 slide-content">
+                <span class="title">Drama, Thriller</span>
+                <h3 class="no-underline">Deepwater Horizon</h3>
+                <div class="star-rating">
+                    <i class="material-icons">star_rate</i>
+                    <i class="material-icons">star_rate</i>
+                    <i class="material-icons">star_rate</i>
+                    <i class="material-icons">star_rate</i>
+                    <i class="material-icons">star_rate</i>
+                </div>
+                <div class="date">
+                    <i class="material-icons">date_range</i> 30 September, 2017
+                </div>
+                <p>A dramatization of the April 2010 disaster, when the offshore drilling rig Deepwater Horizon exploded
+                    and created the worst oil spill in U.S. history.</p>
+                <p><a href="#" class="arrow-button">More info</a></p>
+            </div>
+            <div class="col-sm-6 col-xs-12 col-sm-push-1 slide-video">
+                <a href="https://youtu.be/S-UPJyEHmM0" data-vbtype="video" class="venobox video">
+                    <i class="material-icons">play_arrow</i>
+                    <img src="images/slide-1-video.png" alt="" />
+                </a>
+            </div>
+
+
+    </section>
+
+    <!-- contact support -->
+    <section id="support">
+        <p>Need help? Contact our support team on</p>
+        <h1>0330 123 4567</h1>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 footer__item">
+                    <h1>GET IN TOUCH</h1>
+                    <ul>
+                        <li>
+                            <a href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Give us feedback</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer__item">
+                    <h1>ABOUT MOVIE STAR</h1>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Find us</a>
+                        </li>
+                        <li>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer__item">
+                    <h1>LEGAL STUFF</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer__item">
+                    <h1>CONNECT WITH US</h1>
+                    <ul>
+                        <li>
+
+                            <a href="#"><i class="fab fa-facebook-f"></i>FAQs</a>
+                        </li>
+                        <li>
+
+                            <a href="#"><i class="fab fa-twitter"></i>Give us feedback</a>
+                        </li>
+                        <li>
+
+                            <a href="#"><i class="fab fa-google-plus-g"></i>Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- venobox -->
+    <script src="./js/venobox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.venobox').venobox();
+        });
+    </script>
+
+    <!-- slick -->
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $('.newin-slick').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+        });
+    </script>
+
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    </script>
+</body>
+
+</html>
